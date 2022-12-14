@@ -22,3 +22,11 @@ const selectAnimal = () => {
     let animal = animalArr[Math.floor(Math.random()*animalArr.length)]
     return animal
 }
+
+let physical = selectPhys();
+let emotional = selectEmot();
+let animal = selectAnimal();
+
+// Put together the message
+
+console.log(`Your ideal animal companion is ${physical}, ${emotional} ${animal}!`)
